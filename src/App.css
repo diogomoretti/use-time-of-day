@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.made-with-love {
+  text-align: center;
+}
+
+.made-with-love a {
+  color: #03f;
+}

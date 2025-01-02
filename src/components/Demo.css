@@ -1,0 +1,22 @@
+.box {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #000;
+}
+
+.demo-header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #000;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.time-display {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #03f;
+  margin: 0;
+  line-height: 1.7;
+}

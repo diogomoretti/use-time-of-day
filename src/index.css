@@ -1,0 +1,24 @@
+/* Reset and base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: #f2ffaa;
+  color: #000;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  background-image: radial-gradient(74% 86% at 45% 83%, #F3FFD49C 24%, #073AFF00 100%);
+}

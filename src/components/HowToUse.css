@@ -1,0 +1,41 @@
+.box h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+  margin: 0 0 1.5rem 0;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.instruction-block h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 .5rem 0;
+}
+
+pre {
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 12px 15px !important;
+}
+
+.return-values {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.return-values li {
+  margin: 0.5rem 0;
+}
+
+.return-values code {
+  background: #f3f4f6;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}

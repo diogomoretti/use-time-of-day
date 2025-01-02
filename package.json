@@ -1,0 +1,45 @@
+{
+  "name": "use-time-of-day",
+  "description": "A React Hook to get the current time of day",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Diogo Moretti <diogo.pearljam@gmail.com>",
+  "homepage": "https://github.com/diogomoretti/use-time-of-day",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diogomoretti/use-time-of-day.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-rough-notation": "^1.0.5",
+    "react-syntax-highlighter": "^15.6.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vitest": "^1.2.2"
+  }
+}
