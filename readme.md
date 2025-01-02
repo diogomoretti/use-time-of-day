@@ -1,4 +1,4 @@
-# use-time-of-day
+# Use Time of Day
 
 > A React Hook to get the current time of day.
 
