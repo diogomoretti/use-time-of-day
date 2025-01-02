@@ -67,7 +67,7 @@ The `number` is a hour in the 24-hour format.
 | `morning` | `{ start: number, end: number }` | `{ start: 6, end: 11 }` | The range for morning. |
 | `afternoon` | `{ start: number, end: number }` | `{ start: 12, end: 17 }` | The range for afternoon. |
 | `evening` | `{ start: number, end: number }` | `{ start: 18, end: 19 }` | The range for evening. |
-| `night` | `{ start: number, end: number }` | `{ start: 20, end: 24 }` | The range for night. |
+| `night` | `{ start: number, end: number }` | `{ start: 20, end: 23 }` | The range for night. |
 
 ## License
 
