@@ -8,7 +8,7 @@ const customRanges: Required<TimeRanges> = {
   morning: { start: 6, end: 11 },
   afternoon: { start: 12, end: 17 },
   evening: { start: 18, end: 20 },
-  night: { start: 21, end: 24 },
+  night: { start: 21, end: 23 },
 };
 
 describe('getTimeOfDay', () => {
@@ -45,7 +45,7 @@ describe('getTimeOfDay', () => {
     expect(getTimeOfDay(10, customRanges)).toBe('morning');
     expect(getTimeOfDay(15, customRanges)).toBe('afternoon');
     expect(getTimeOfDay(18, customRanges)).toBe('evening');
-    expect(getTimeOfDay(21, customRanges)).toBe('night');
+    expect(getTimeOfDay(23, customRanges)).toBe('night');
   });
 });
 

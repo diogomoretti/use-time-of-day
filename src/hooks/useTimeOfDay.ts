@@ -7,6 +7,7 @@ export const getTimeOfDay = (hour: number, ranges: Required<TimeRanges> = DEFAUL
   if (hour >= ranges.afternoon.start && hour <= ranges.afternoon.end) return 'afternoon';
   if (hour >= ranges.evening.start && hour <= ranges.evening.end) return 'evening';
   if (hour >= ranges.night.start && hour <= ranges.night.end) return 'night';
+  return 'today';
 };
 
 export default function useTimeOfDay(customRanges?: TimeRanges): TimeOfDay {

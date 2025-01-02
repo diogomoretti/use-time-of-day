@@ -29,7 +29,7 @@ export function HowToUse() {
     morning: { start: 6, end: 11 },
     afternoon: { start: 12, end: 17 },
     evening: { start: 18, end: 20 },
-    night: { start: 21, end: 24 },
+    night: { start: 21, end: 23 },
   });
   
   return <div>It's {timeOfDay}!</div>;
