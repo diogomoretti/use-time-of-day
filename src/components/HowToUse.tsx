@@ -26,10 +26,10 @@ export function HowToUse() {
   // Or with custom ranges
   const timeOfDay = useTimeOfDay({
     earlyMorning: { start: 0, end: 5 },
-    morning: { start: 5, end: 12 },
+    morning: { start: 6, end: 11 },
     afternoon: { start: 12, end: 17 },
-    evening: { start: 17, end: 20 },
-    night: { start: 20, end: 24 },
+    evening: { start: 18, end: 20 },
+    night: { start: 21, end: 24 },
   });
   
   return <div>It's {timeOfDay}!</div>;
