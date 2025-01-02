@@ -58,7 +58,7 @@ function YourComponent() {
 
 The `number` is a hour in the 24-hour format. 
 
-- **Start example**: `start: 6` means that the time limit is 6:00:00.
+- **Start example**: `start: 6` means that the time starts at 6:00:00.
 - **End example**: `end: 5` means that the time limit is 5:59:59.
 
 | Option | Type | Default | Description |
