@@ -1,4 +1,4 @@
-# Use Time of Day
+![use-time-of-day](./banner.png)
 
 > A React Hook to get the current time of day.
 
