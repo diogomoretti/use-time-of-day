@@ -1,6 +1,7 @@
 ![use-time-of-day](./banner.png)
 
 > A React Hook to get the current time of day.
+> 
 > ✨ [View Demo ➔](https://diogomoretti.github.io/use-time-of-day/)
 
 ## Installation
